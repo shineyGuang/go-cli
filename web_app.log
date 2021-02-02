@@ -1,0 +1,14 @@
+{"level":"DEBUG","time":"2021-02-01T22:54:28.628+0800","caller":"bluebell/main.go:36","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-01T22:54:28.804+0800","caller":"bluebell/main.go:44","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-01T22:54:28.857+0800","caller":"bluebell/main.go:52","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-01T22:54:34.264+0800","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36","errors":"","cost":0.000070082}
+{"level":"DEBUG","time":"2021-02-01T22:54:39.173+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
+{"level":"DEBUG","time":"2021-02-01T22:54:40.175+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-02-02T00:15:12.705+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-02T00:15:12.875+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-02T00:15:12.931+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-02T00:16:02.742+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-02T00:16:02.920+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-02T00:16:02.976+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-02T00:16:09.232+0800","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36","errors":"","cost":0.000078198}
+{"level":"INFO","time":"2021-02-02T00:16:11.321+0800","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36","errors":"","cost":0.000007021}
