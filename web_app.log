@@ -12,3 +12,37 @@
 {"level":"DEBUG","time":"2021-02-02T00:16:02.976+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
 {"level":"INFO","time":"2021-02-02T00:16:09.232+0800","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36","errors":"","cost":0.000078198}
 {"level":"INFO","time":"2021-02-02T00:16:11.321+0800","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36","errors":"","cost":0.000007021}
+{"level":"DEBUG","time":"2021-02-03T23:41:40.359+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-03T23:41:40.541+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-03T23:41:40.600+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-03T23:43:14.292+0800","caller":"logger/logger.go:73","msg":"/","status":404,"method":"POST","path":"/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000028131}
+{"level":"INFO","time":"2021-02-03T23:43:57.893+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000262785}
+{"level":"ERROR","time":"2021-02-03T23:44:17.144+0800","caller":"controllers/user.go:19","msg":"注册传入参数错误！","error":"invalid character '/' after object key:value pair"}
+{"level":"INFO","time":"2021-02-03T23:44:17.144+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000104404}
+{"level":"DEBUG","time":"2021-02-03T23:45:48.429+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
+{"level":"DEBUG","time":"2021-02-03T23:45:48.429+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-02-03T23:45:59.954+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-03T23:46:00.117+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-03T23:46:00.176+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
+{"level":"ERROR","time":"2021-02-03T23:46:06.416+0800","caller":"controllers/user.go:19","msg":"注册传入参数错误！","error":"invalid character '/' after object key:value pair"}
+{"level":"INFO","time":"2021-02-03T23:46:06.416+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000235339}
+{"level":"DEBUG","time":"2021-02-03T23:51:29.916+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
+{"level":"DEBUG","time":"2021-02-03T23:51:29.916+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-02-03T23:51:47.576+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-03T23:51:47.755+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-03T23:51:47.814+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-03T23:52:00.581+0800","caller":"controllers/user.go:31","msg":"注册成功！","userName":"Cindy"}
+{"level":"INFO","time":"2021-02-03T23:52:00.600+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.01919951}
+{"level":"ERROR","time":"2021-02-03T23:52:11.087+0800","caller":"controllers/user.go:19","msg":"注册传入参数错误！","error":"invalid character '/' after object key:value pair"}
+{"level":"INFO","time":"2021-02-03T23:52:11.108+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.021564412}
+{"level":"DEBUG","time":"2021-02-03T23:54:31.667+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
+{"level":"DEBUG","time":"2021-02-03T23:54:31.667+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-02-03T23:54:48.037+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-03T23:54:48.199+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-03T23:54:48.258+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
+{"level":"ERROR","time":"2021-02-03T23:55:03.253+0800","caller":"controllers/user.go:37","msg":"注册失败！","userName":"Cindy"}
+{"level":"INFO","time":"2021-02-03T23:55:03.274+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.021720771}
+{"level":"ERROR","time":"2021-02-03T23:55:27.962+0800","caller":"controllers/user.go:37","msg":"注册失败！","userName":"Cindy"}
+{"level":"INFO","time":"2021-02-03T23:55:27.962+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000115916}
+{"level":"DEBUG","time":"2021-02-03T23:55:55.058+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
+{"level":"DEBUG","time":"2021-02-03T23:55:55.058+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
