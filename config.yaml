@@ -19,7 +19,7 @@ mysql:
   port: 3306
   user: "root"
   password: "Zcg@123456"
-  dbname: "sql_demo"
+  dbname: "bluebell"
   maxopenconns: 200
   maxidleconns: 50
 

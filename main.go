@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bluebell/controllers"
 	"bluebell/controllers/run"
 	"bluebell/dao/mysql"
 	"bluebell/dao/redis"
@@ -30,7 +31,7 @@ func main() {
 	}
 
 	// 2. 初始化日志
-	if err := logger.Init(settings.Conf.LogConfig); err != nil {
+	if err := logger.Init(settings.Conf.LogConfig, settings.Conf.Mode); err != nil {
 		fmt.Printf("init logger failed, err: %s\n", err)
 		return
 	}
@@ -59,8 +60,13 @@ func main() {
 		return
 	}
 
+	// InitTrans初始化校验翻译器
+	if err := controllers.InitTrans("zh"); err != nil {
+		fmt.Printf("init validator translator failed, err=%v\n", err)
+	}
+
 	// 5. 注册路由
-	r := routes.SetUp()
+	r := routes.SetUp(settings.Conf.Mode)
 
 	// 6. 启动服务（优雅关机）
 	run.ForeverElegant(r)
