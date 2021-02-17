@@ -3,7 +3,6 @@ package routes
 import (
 	"bluebell/controllers"
 	"bluebell/logger"
-	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
@@ -16,11 +15,14 @@ func SetUp(mode string) *gin.Engine {
 	r := gin.New()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
 
+	// 测试框架搭建是否成功
+	r.GET("/", controllers.LinkTestHandler)
+
 	// 注册业务路由
 	r.POST("/signUp", controllers.SignUpHandler)
 
-	r.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "Hello, world!")
-	})
+	// 登录业务路由
+	r.POST("/login", controllers.LoginHandler)
+
 	return r
 }

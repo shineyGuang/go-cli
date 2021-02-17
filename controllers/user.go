@@ -3,7 +3,7 @@ package controllers
 import (
 	"bluebell/logic"
 	"bluebell/models"
-	"net/http"
+	"errors"
 
 	"github.com/go-playground/validator/v10"
 
@@ -11,6 +11,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 )
+
+// LinkTestHandler 测试框架搭建是否成功
+func LinkTestHandler(c *gin.Context) {
+	Res(c, CodeSuccess, "")
+}
 
 // SignUpHandler 处理注册请求函数
 func SignUpHandler(c *gin.Context) {
@@ -20,39 +25,46 @@ func SignUpHandler(c *gin.Context) {
 		errs, ok := err.(validator.ValidationErrors)
 		if !ok {
 			// 非validator.ValidationErrors类型错误直接返回
-			c.JSON(http.StatusOK, gin.H{
-				"msg": err.Error(),
-			})
+			ResWithMsg(c, CodeServerBusy, errors.New("非参数类型错误！"), "")
 			return
 		}
 		// validator.ValidationErrors类型错误则进行翻译
-		c.JSON(http.StatusOK, gin.H{
-			"msg": errs.Translate(trans),
-		})
+		ResWithMsg(c, CodeInvalidParams, errs.Translate(trans), "")
 		return
-		//zap.L().Error("注册传入参数错误！", zap.Error(err))
-		//c.JSON(http.StatusOK, gin.H{
-		//	"code": 402,
-		//	"msg":  "注册输入参数错误！",
-		//})
-		//return
 	}
 	//fmt.Println(p)
 	// 2. 业务处理【放在logic层】
 	if err := logic.SignUp(p); err != nil {
 		zap.L().Error("注册失败！", zap.String("userName", p.UserName))
-		c.JSON(http.StatusOK, gin.H{
-			"code": -1,
-			"msg":  "注册失败！",
-		})
+		Res(c, CodeSignUpFailed, "")
 	} else {
 		zap.L().Info("注册成功！", zap.String("userName", p.UserName))
-		c.JSON(http.StatusOK, gin.H{
-			"code": 0,
-			"msg":  "注册成功",
-		})
+		Res(c, CodeSuccess, map[string]string{"userName": p.UserName, "pwd": p.PassWord})
 	}
-	//fmt.Println(res)
-	// 3. 返回响应
+}
 
+// LoginHandler 处理登录业务函数
+func LoginHandler(c *gin.Context) {
+	loginUser := new(models.UserLogin)
+	// 1. 参数校验
+	if err := c.ShouldBindJSON(loginUser); err != nil {
+		errs, ok := err.(validator.ValidationErrors)
+		if !ok {
+			// 返回非参数校验类型错误
+			ResWithMsg(c, CodeServerBusy, errors.New("非参数类型错误！"), "")
+		} else {
+			ResWithMsg(c, CodeInvalidParams, errs.Translate(trans), "")
+			return
+		}
+	}
+	// 2. 查库看用户是否存在
+	if logic.Login(loginUser) {
+		// 此处表示登录成功
+		Res(c, CodeSuccess, map[string]string{"userName": loginUser.UserName, "pwd": loginUser.PassWord, "token": "以后会有的"})
+		zap.L().Info("登录成功", zap.String("username", loginUser.UserName))
+	} else {
+		Res(c, CodeLoginFailed, "")
+		zap.L().Info("登录失败", zap.String("username", loginUser.UserName))
+	}
+	// 3. 返回响应
 }

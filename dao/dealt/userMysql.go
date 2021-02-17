@@ -30,3 +30,17 @@ func InsertUser(p *models.UserSignUp) (err error) {
 		return nil
 	}
 }
+
+func LoginCheck(p *models.UserLogin) bool {
+	var num int
+	sqlStr := `select count(user_id) from user where username=? and password=?`
+	if err := mysql.DB.Get(&num, sqlStr, p.UserName, p.PassWord); err != nil {
+		return false
+	} else {
+		if num == 0 {
+			return false
+		} else {
+			return true
+		}
+	}
+}

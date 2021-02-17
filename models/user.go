@@ -8,3 +8,8 @@ type UserSignUp struct {
 	Email      string `json:"email" db:"email" binding:"required,email"`
 	Gender     int    `json:"gender" db:"gender"`
 }
+
+type UserLogin struct {
+	UserName string `json:"userName" db:"username" binding:"required"`
+	PassWord string `json:"pwd" db:"password" binding:"gte=3,lte=8,required"`
+}

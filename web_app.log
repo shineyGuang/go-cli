@@ -1,136 +1,86 @@
-{"level":"DEBUG","time":"2021-02-01T22:54:28.628+0800","caller":"bluebell/main.go:36","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-01T22:54:28.804+0800","caller":"bluebell/main.go:44","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-01T22:54:28.857+0800","caller":"bluebell/main.go:52","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-01T22:54:34.264+0800","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36","errors":"","cost":0.000070082}
-{"level":"DEBUG","time":"2021-02-01T22:54:39.173+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
-{"level":"DEBUG","time":"2021-02-01T22:54:40.175+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
-{"level":"DEBUG","time":"2021-02-02T00:15:12.705+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-02T00:15:12.875+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-02T00:15:12.931+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"DEBUG","time":"2021-02-02T00:16:02.742+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-02T00:16:02.920+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-02T00:16:02.976+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-02T00:16:09.232+0800","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36","errors":"","cost":0.000078198}
-{"level":"INFO","time":"2021-02-02T00:16:11.321+0800","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36","errors":"","cost":0.000007021}
-{"level":"DEBUG","time":"2021-02-03T23:41:40.359+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-03T23:41:40.541+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-03T23:41:40.600+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-03T23:43:14.292+0800","caller":"logger/logger.go:73","msg":"/","status":404,"method":"POST","path":"/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000028131}
-{"level":"INFO","time":"2021-02-03T23:43:57.893+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000262785}
-{"level":"ERROR","time":"2021-02-03T23:44:17.144+0800","caller":"controllers/user.go:19","msg":"注册传入参数错误！","error":"invalid character '/' after object key:value pair"}
-{"level":"INFO","time":"2021-02-03T23:44:17.144+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000104404}
-{"level":"DEBUG","time":"2021-02-03T23:45:48.429+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
-{"level":"DEBUG","time":"2021-02-03T23:45:48.429+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
-{"level":"DEBUG","time":"2021-02-03T23:45:59.954+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-03T23:46:00.117+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-03T23:46:00.176+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"ERROR","time":"2021-02-03T23:46:06.416+0800","caller":"controllers/user.go:19","msg":"注册传入参数错误！","error":"invalid character '/' after object key:value pair"}
-{"level":"INFO","time":"2021-02-03T23:46:06.416+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000235339}
-{"level":"DEBUG","time":"2021-02-03T23:51:29.916+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
-{"level":"DEBUG","time":"2021-02-03T23:51:29.916+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
-{"level":"DEBUG","time":"2021-02-03T23:51:47.576+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-03T23:51:47.755+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-03T23:51:47.814+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-03T23:52:00.581+0800","caller":"controllers/user.go:31","msg":"注册成功！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-03T23:52:00.600+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.01919951}
-{"level":"ERROR","time":"2021-02-03T23:52:11.087+0800","caller":"controllers/user.go:19","msg":"注册传入参数错误！","error":"invalid character '/' after object key:value pair"}
-{"level":"INFO","time":"2021-02-03T23:52:11.108+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.021564412}
-{"level":"DEBUG","time":"2021-02-03T23:54:31.667+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
-{"level":"DEBUG","time":"2021-02-03T23:54:31.667+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
-{"level":"DEBUG","time":"2021-02-03T23:54:48.037+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-03T23:54:48.199+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-03T23:54:48.258+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"ERROR","time":"2021-02-03T23:55:03.253+0800","caller":"controllers/user.go:37","msg":"注册失败！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-03T23:55:03.274+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.021720771}
-{"level":"ERROR","time":"2021-02-03T23:55:27.962+0800","caller":"controllers/user.go:37","msg":"注册失败！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-03T23:55:27.962+0800","caller":"logger/logger.go:73","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000115916}
-{"level":"DEBUG","time":"2021-02-03T23:55:55.058+0800","caller":"run/run_elegant.go:38","msg":"ShutDown Server...."}
-{"level":"DEBUG","time":"2021-02-03T23:55:55.058+0800","caller":"run/run_elegant.go:45","msg":"Server exiting"}
-{"level":"DEBUG","time":"2021-02-04T22:26:40.341+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:26:40.522+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:26:40.578+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"ERROR","time":"2021-02-04T22:27:09.656+0800","caller":"controllers/user.go:36","msg":"注册失败！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-04T22:27:09.657+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000309884}
-{"level":"DEBUG","time":"2021-02-04T22:33:13.776+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:33:13.951+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:33:14.004+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:33:52.855+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:33:53.018+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:33:53.070+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-04T22:34:37.222+0800","caller":"controllers/user.go:30","msg":"注册成功！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-04T22:34:37.222+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000301214}
-{"level":"DEBUG","time":"2021-02-04T22:35:48.452+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:35:48.612+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:35:48.667+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-04T22:35:57.720+0800","caller":"controllers/user.go:30","msg":"注册成功！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-04T22:35:57.720+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000275085}
-{"level":"DEBUG","time":"2021-02-04T22:36:30.599+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:36:30.759+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:36:30.814+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:39:13.702+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:39:13.869+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:39:13.922+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:39:36.309+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:39:36.477+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-04T22:39:36.531+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-04T22:39:57.637+0800","caller":"controllers/user.go:30","msg":"注册成功！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-04T22:39:57.637+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000308138}
-{"level":"DEBUG","time":"2021-02-05T00:05:20.206+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"ERROR","time":"2021-02-05T00:05:20.324+0800","caller":"mysql/mysql.go:31","msg":"connect DB failed","error":"Error 1049: Unknown database 'sql_demo'"}
-{"level":"DEBUG","time":"2021-02-05T00:05:49.475+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:05:49.650+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:05:49.707+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"ERROR","time":"2021-02-05T00:06:08.141+0800","caller":"logger/logger.go:125","msg":"[Recovery from panic]","error":"Undefined validation function 'eqfiled' on field 'RePassWord'","request":"POST /signUp HTTP/1.1\r\nHost: localhost:8081\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nConnection: keep-alive\r\nContent-Length: 111\r\nContent-Type: application/json\r\nPostman-Token: 4aaf3a09-2f27-43b3-99d1-352bcad74d5a\r\nUser-Agent: PostmanRuntime/7.26.10\r\n\r\n","stack":"goroutine 24 [running]:\nruntime/debug.Stack(0x0, 0xc0004b0000, 0x106)\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x9d\nbluebell/logger.GinRecovery.func1.1(0xc00049c000, 0x1)\n\t/Users/fightman/go/src/bluebell/logger/logger.go:128 +0x25d\npanic(0x174ca40, 0xc0004ac710)\n\t/usr/local/go/src/runtime/panic.go:969 +0x166\ngithub.com/go-playground/validator/v10.(*Validate).parseFieldTagsRecursive(0xc00010ff80, 0x1744152, 0x19, 0x174412f, 0xa, 0x174415b, 0x0, 0x174ca00, 0x174413b, 0x31)\n\t/Users/fightman/go/pkg/mod/github.com/go-playground/validator/v10@v10.2.0/cache.go:289 +0xf1b\ngithub.com/go-playground/validator/v10.(*Validate).extractStructCache(0xc00010ff80, 0x1802f80, 0xc000124280, 0x199, 0x1700a51, 0xa, 0x0)\n\t/Users/fightman/go/pkg/mod/github.com/go-playground/validator/v10@v10.2.0/cache.go:150 +0x42a\ngithub.com/go-playground/validator/v10.(*validate).validateStruct(0xc00014dd40, 0x199dd00, 0xc0000200d0, 0x17252e0, 0xc000124280, 0x16, 0x1802f80, 0xc000124280, 0x199, 0x19b10a0, ...)\n\t/Users/fightman/go/pkg/mod/github.com/go-playground/validator/v10@v10.2.0/validator.go:37 +0x9c7\ngithub.com/go-playground/validator/v10.(*Validate).StructCtx(0xc00010ff80, 0x199dd00, 0xc0000200d0, 0x17252e0, 0xc000124280, 0x199, 0x0)\n\t/Users/fightman/go/pkg/mod/github.com/go-playground/validator/v10@v10.2.0/validator_instance.go:304 +0x380\ngithub.com/go-playground/validator/v10.(*Validate).Struct(...)\n\t/Users/fightman/go/pkg/mod/github.com/go-playground/validator/v10@v10.2.0/validator_instance.go:277\ngithub.com/gin-gonic/gin/binding.(*defaultValidator).ValidateStruct(0x1ee7790, 0x17252e0, 0xc000124280, 0x0, 0x0)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/binding/default_validator.go:30 +0x10a\ngithub.com/gin-gonic/gin/binding.validate(...)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/binding/binding.go:115\ngithub.com/gin-gonic/gin/binding.decodeJSON(0x26260f8, 0xc00011e7c0, 0x17252e0, 0xc000124280, 0xc00011e7c0, 0x1017476)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/binding/json.go:55 +0xdc\ngithub.com/gin-gonic/gin/binding.jsonBinding.Bind(0xc000166500, 0x17252e0, 0xc000124280, 0x24fff01, 0xc000124280)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/binding/json.go:37 +0xc6\ngithub.com/gin-gonic/gin.(*Context).ShouldBindWith(...)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:679\ngithub.com/gin-gonic/gin.(*Context).ShouldBindJSON(...)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:644\nbluebell/controllers.SignUpHandler(0xc00049c000)\n\t/Users/fightman/go/src/bluebell/controllers/user.go:20 +0x8c\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00049c000)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b\nbluebell/logger.GinRecovery.func1(0xc00049c000)\n\t/Users/fightman/go/src/bluebell/logger/logger.go:139 +0x56\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00049c000)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b\nbluebell/logger.GinLogger.func1(0xc00049c000)\n\t/Users/fightman/go/src/bluebell/logger/logger.go:80 +0x94\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00049c000)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000428000, 0xc00049c000)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x666\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000428000, 0x199b6c0, 0xc000496000, 0xc000166500)\n\t/Users/fightman/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x14d\nnet/http.serverHandler.ServeHTTP(0xc0004260e0, 0x199b6c0, 0xc000496000, 0xc000166500)\n\t/usr/local/go/src/net/http/server.go:2807 +0xa3\nnet/http.(*conn).serve(0xc00012aa00, 0x199dcc0, 0xc00011e700)\n\t/usr/local/go/src/net/http/server.go:1895 +0x86c\ncreated by net/http.(*Server).Serve\n\t/usr/local/go/src/net/http/server.go:2933 +0x35c\n"}
-{"level":"INFO","time":"2021-02-05T00:06:08.142+0800","caller":"logger/logger.go:83","msg":"/signUp","status":500,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.001470523}
-{"level":"DEBUG","time":"2021-02-05T00:10:40.073+0800","caller":"bluebell/main.go:37","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:10:40.246+0800","caller":"bluebell/main.go:45","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:10:40.301+0800","caller":"bluebell/main.go:53","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-05T00:10:46.820+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000330722}
-{"level":"DEBUG","time":"2021-02-05T00:13:44.647+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:13:44.815+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:13:44.872+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-05T00:13:48.570+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000275439}
-{"level":"INFO","time":"2021-02-05T00:14:12.044+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000082156}
-{"level":"DEBUG","time":"2021-02-05T00:15:31.466+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:15:31.644+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:15:31.697+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-05T00:15:42.224+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.00030096}
-{"level":"INFO","time":"2021-02-05T00:17:42.934+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000065099}
-{"level":"DEBUG","time":"2021-02-05T00:20:00.542+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:20:00.721+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:20:00.777+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
-{"level":"ERROR","time":"2021-02-05T00:20:04.924+0800","caller":"controllers/user.go:53","msg":"注册失败！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-05T00:20:04.924+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.189051386}
-{"level":"DEBUG","time":"2021-02-05T00:22:05.795+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:22:05.980+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:22:06.035+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
-{"level":"ERROR","time":"2021-02-05T00:22:10.203+0800","caller":"controllers/user.go:53","msg":"注册失败！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-05T00:22:10.203+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.197461346}
-{"level":"ERROR","time":"2021-02-05T00:25:35.004+0800","caller":"controllers/user.go:53","msg":"注册失败！","userName":"666"}
-{"level":"INFO","time":"2021-02-05T00:25:35.004+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.187802264}
-{"level":"DEBUG","time":"2021-02-05T00:33:32.428+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:33:32.600+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:33:32.657+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
-{"level":"ERROR","time":"2021-02-05T00:33:39.770+0800","caller":"controllers/user.go:53","msg":"注册失败！","userName":"666"}
-{"level":"INFO","time":"2021-02-05T00:33:39.770+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.201523974}
-{"level":"DEBUG","time":"2021-02-05T00:34:14.973+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:34:15.139+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:34:15.196+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-05T00:34:19.174+0800","caller":"controllers/user.go:47","msg":"注册成功！","userName":"666"}
-{"level":"INFO","time":"2021-02-05T00:34:19.175+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.188091296}
-{"level":"ERROR","time":"2021-02-05T00:34:52.651+0800","caller":"controllers/user.go:53","msg":"注册失败！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-05T00:34:52.651+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.191045955}
-{"level":"DEBUG","time":"2021-02-05T00:49:03.438+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:49:03.598+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:49:03.653+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
-{"level":"ERROR","time":"2021-02-05T00:49:12.271+0800","caller":"controllers/user.go:43","msg":"注册失败！","userName":"Cindy"}
-{"level":"INFO","time":"2021-02-05T00:49:12.271+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.182209705}
-{"level":"INFO","time":"2021-02-05T00:49:22.148+0800","caller":"controllers/user.go:49","msg":"注册成功！","userName":"reert"}
-{"level":"INFO","time":"2021-02-05T00:49:22.148+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.384578588}
-{"level":"ERROR","time":"2021-02-05T00:49:50.029+0800","caller":"controllers/user.go:43","msg":"注册失败！","userName":"reert"}
-{"level":"INFO","time":"2021-02-05T00:49:50.029+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.191094167}
-{"level":"DEBUG","time":"2021-02-05T00:51:22.321+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:51:22.500+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
-{"level":"DEBUG","time":"2021-02-05T00:51:22.558+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
-{"level":"INFO","time":"2021-02-05T00:51:29.884+0800","caller":"controllers/user.go:49","msg":"注册成功！","userName":"reert"}
-{"level":"INFO","time":"2021-02-05T00:51:29.884+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.383239164}
+{"level":"DEBUG","time":"2021-02-12T13:03:49.345+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T13:03:49.532+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T13:03:49.609+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-12T13:03:54.010+0800","caller":"controllers/user.go:85","msg":"登录成功","username":"Cindy"}
+{"level":"INFO","time":"2021-02-12T13:03:54.010+0800","caller":"logger/logger.go:83","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.255199189}
+{"level":"INFO","time":"2021-02-12T13:04:13.146+0800","caller":"controllers/user.go:91","msg":"登录失败","username":"Cindy"}
+{"level":"INFO","time":"2021-02-12T13:04:13.146+0800","caller":"logger/logger.go:83","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.291239829}
+{"level":"DEBUG","time":"2021-02-12T13:57:44.600+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T13:57:44.914+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T13:57:44.994+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:23:26.548+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:23:26.792+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:23:26.862+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:27:51.104+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:27:51.361+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:27:51.434+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:28:35.436+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:28:35.678+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:28:35.756+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:29:50.221+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:29:50.524+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:29:50.594+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:31:29.518+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:31:29.877+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:31:29.983+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:31:47.524+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:31:47.792+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:31:47.906+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:36:48.662+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:36:48.879+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:36:48.950+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:37:36.983+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:37:37.219+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:37:37.308+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:37:54.284+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:37:54.512+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:37:54.640+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:12.792+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:13.030+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:13.110+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:45.765+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:46.061+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:46.133+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:52.867+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:53.192+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:44:53.264+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:45:09.799+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:45:09.987+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:45:10.087+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:46:48.465+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:46:48.879+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:46:48.988+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:47:06.356+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:47:06.677+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:47:06.755+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:47:48.407+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:47:48.683+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:47:48.750+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:51:12.347+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:51:12.548+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:51:12.612+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:51:36.939+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:51:37.189+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:51:37.302+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:55:51.657+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:55:51.930+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T14:55:52.012+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-12T14:56:09.695+0800","caller":"logger/logger.go:83","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000088411}
+{"level":"DEBUG","time":"2021-02-12T15:07:30.832+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T15:07:31.035+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T15:07:31.097+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-12T15:10:01.486+0800","caller":"controllers/user.go:42","msg":"注册成功！","userName":"杀马特"}
+{"level":"INFO","time":"2021-02-12T15:10:01.487+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.643908134}
+{"level":"DEBUG","time":"2021-02-12T15:12:35.417+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T15:12:35.772+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T15:12:35.856+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-12T15:12:42.865+0800","caller":"logger/logger.go:83","msg":"/signUp","status":200,"method":"POST","path":"/signUp","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.000248277}
+{"level":"DEBUG","time":"2021-02-12T15:15:01.196+0800","caller":"bluebell/main.go:38","msg":"logger init success...."}
+{"level":"DEBUG","time":"2021-02-12T15:15:01.437+0800","caller":"bluebell/main.go:46","msg":"mysql init success...."}
+{"level":"DEBUG","time":"2021-02-12T15:15:01.523+0800","caller":"bluebell/main.go:54","msg":"redis init success...."}
+{"level":"INFO","time":"2021-02-12T15:15:12.216+0800","caller":"controllers/user.go:67","msg":"登录失败","username":"Cindy"}
+{"level":"INFO","time":"2021-02-12T15:15:12.216+0800","caller":"logger/logger.go:83","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.443306707}
+{"level":"INFO","time":"2021-02-12T15:15:16.930+0800","caller":"controllers/user.go:64","msg":"登录成功","username":"Cindy"}
+{"level":"INFO","time":"2021-02-12T15:15:16.930+0800","caller":"logger/logger.go:83","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.316370115}
+{"level":"INFO","time":"2021-02-12T18:18:19.352+0800","caller":"controllers/user.go:64","msg":"登录成功","username":"Cindy"}
+{"level":"INFO","time":"2021-02-12T18:18:19.352+0800","caller":"logger/logger.go:83","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.10","errors":"","cost":0.305104691}

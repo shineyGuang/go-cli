@@ -27,3 +27,9 @@ func SignUp(p *models.UserSignUp) (err error) {
 		}
 	}
 }
+
+// Login 处理登录逻辑
+func Login(p *models.UserLogin) bool {
+	p.PassWord = md5.EncryptPassword(p.PassWord)
+	return dealt.LoginCheck(p)
+}
